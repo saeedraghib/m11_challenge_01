@@ -32,17 +32,20 @@ Visualize the Results.
 
 ## Technologies
 
-import hvplot.pandas
-from path import Path
-from sklearn.cluster import KMeans
-from sklearn.decomposition import PCA
-from sklearn.preprocessing import StandardScaler
+To speed up processing, the jupyter notebook is being uploaded to "coLab"<br>
+Following INSTALLS are happening on the fly:<br>
+!pip install pystan<br>
+!pip install fbprophet<br>
+!pip install hvplot<br>
+!pip install holoviews<br>
 
 The following packages and dependicies are needed for the proper functioning of the application:
 
 ### **pandas**:<br>
-### **Path**:<br>
-### **sklearn**:<br>
+### **holoviews**:<br>
+### **Prophet**:<br>
+### **datetime**:<br>
+### **matplotlib**:<br>
 ### **hvplot:**<br>
 <br>
 
@@ -51,7 +54,7 @@ The following packages and dependicies are needed for the proper functioning of 
 ## Usage
 
 In order to run the program, type the following at the terminal prompt:
-* ### python sr_crypto_investments.ipynb
+* ### python sr_forecasting_net_prophet.ipynb
 
 ---
 
